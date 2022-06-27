@@ -6,8 +6,10 @@ const specialChar =["!","@","#","$","%","^","&","*"]
 
 function askQuestions(){
   let passwordArr = []
+  let usableChar = []
 
   let length;
+
 let useUpper = promptChoices("Uppercase characters")
 let useLower = promptChoices("lowercase characters")
 let useNumber = promptChoices("numbers")
@@ -18,7 +20,11 @@ if(!useUpper && !useLower && !useNumber && !useSpecial){
 }
 let passwordLength = askLength()
 
-if(useUpper){}
+if(useUpper){usableChar = usableChar.concat(upperChar)}
+if(useLower){usableChar = usableChar.concat(lowerChar)}
+if(useNumber){usableChar = usableChar.concat(numbers)}
+if(useSpecial){usableChar = usableChar.concat(specialChar)}
+console.log(usableChar)
 //functions used
 function promptChoices(e){
     let answer;
