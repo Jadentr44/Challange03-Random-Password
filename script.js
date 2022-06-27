@@ -9,9 +9,14 @@ const specialChar =["!","@","#","$","%","^","&","*"]
 
 const usableChar = []
 function askQuestions(){
-let useUpper = promptChoices("Upper Case Characters")
-console.log(useUpper)
-
+let useUpper = promptChoices("Uppercase characters")
+let useLower = promptChoices("lowercase characters")
+let useNumber = promptChoices("numbers")
+let useSpecial = promptChoices("special characters")
+if(!useUpper && !useLower && !useNumber && !useSpecial){
+  alert("you must select 1")
+  askQuestions()
+}
 function promptChoices(e){
     let answer;
     askAndCheck()
