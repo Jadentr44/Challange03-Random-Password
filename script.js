@@ -8,19 +8,21 @@ const numbers = ["1","2","3","4","5","6","7","8","9"]
 const specialChar =["!","@","#","$","%","^","&","*"]
 
 const usableChar = []
+function askQuestions(){
+let useUpper = promptChoices("Upper Case Characters")
+console.log(useUpper)
 
-let useUpper = askDetails("Upper Case Characters")
-
-function askDetails(e){
+function promptChoices(e){
     let answer;
-    console.log("here")
-  promptYN()
+    askAndCheck()
   if(answer === "Y"){return true}
   else{return false}
-  function promptYN(){
+  function askAndCheck(){
     console.log("here too")
      answer = prompt(`Would you like ${e} in your password?'Y' for yes or 'N' for no`);
      answer = answer.toUpperCase()
-    if(answer !=="Y" && answer !== "N"){ promptYN()}
+    if(answer !=="Y" && answer !== "N"){ askAndCheck()}
   }
 }
+}
+askQuestions()
