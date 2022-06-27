@@ -9,6 +9,18 @@ const specialChar =["!","@","#","$","%","^","&","*"]
 
 const usableChar = []
 
-function generatePassword(){
-  for(let i =)
+let useUpper = askDetails("Upper Case Characters")
+
+function askDetails(e){
+    let answer;
+    console.log("here")
+  promptYN()
+  if(answer === "Y"){return true}
+  else{return false}
+  function promptYN(){
+    console.log("here too")
+     answer = prompt(`Would you like ${e} in your password?'Y' for yes or 'N' for no`);
+     answer = answer.toUpperCase()
+    if(answer !=="Y" && answer !== "N"){ promptYN()}
+  }
 }
