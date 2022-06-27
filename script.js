@@ -42,6 +42,7 @@ for(let i =0; i < passwordLength;i++){
   }
 }
 console.log(passwordArr.join(""))
+passwordText.value = passwordArr.join("")
 //functions used
 function promptChoices(e){
     let answer;
@@ -64,5 +65,3 @@ function askLength(){
   }else{askLength()}
 }
 
-
-generatePassword()
