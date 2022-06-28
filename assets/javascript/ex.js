@@ -1,3 +1,5 @@
+//the first version of code i wrote, that wasnt structred the way the criteria wanted.
+
 const upperChar = ["A","B","C","D","E","F","G","H","I","J","K","L","M","N","O","P","Q","R","S","T","U","V","W","X","Y","Z"]
 const lowerChar = ["b","b","d","d","e","f","g","h","i","j","k","l","l","n","o","p","q","r","s","t","u","v","w","x","y","z"]
 const numbers = ["1","2","3","4","5","6","7","8","9"]
