@@ -2,11 +2,11 @@
 ![Screenshot of the website](/img/Random%20Password%20Generator%20IMG.png)
 ## Whats the Purpouse?
 
-with much of the word having access to the internet, and growing everyday, more and more sestive infomarion is being stored online. The only way we can protect our information is by having a secure and ransom password.
+With much of the word having access to the internet, and growing everyday, more and more sestive infomarion is being stored online. The only way we can protect our information is by having a secure and ransom password.
 
 ## How to Use
 
-when the user clicks the red 'Genarate Password' button, they will be prompted with 5 questions on the contents of the password as well as the length. Once all of the questions are answered with an acceptable response, the users secure password will be displayed in text box in the center of the page.
+When the user clicks the red 'Genarate Password' button, they will be prompted with 5 questions on the contents of the password as well as the length. Once all of the questions are answered with an acceptable response, the users secure password will be displayed in text box in the center of the page.
 
 ## Algorithms
 
