@@ -25,7 +25,7 @@ A live verstion of the code can be found [here](https://jadentr44.github.io/Chal
 
 ## Credits
 
-All of the Javascript was written and planned out by [Jaden Rodriguez](https://github.com/Jadentr44
+All of the Javascript was written and planned out by [Jaden Rodriguez](https://github.com/Jadentr44)
 
 The Html and css was provided from the UT Austin coding boot camp repository starter code for challenge 03.
 
